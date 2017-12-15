@@ -4,7 +4,7 @@ var app=express();
 app.get('/', function (req,res){
   res.send('hello world <b>meh lai </b>ga!');
 });
-
+practice path
 
 app.get("/mypath", function (req, res){
 res.send('mypath');
